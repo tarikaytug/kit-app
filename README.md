@@ -10,7 +10,7 @@ Kitapp, kullanıcıların kitap arayabildiği ve favorilerine ekleyebildiği bas
 - Oturum kontrolü ve yönlendirme
 - Modern ve kullanıcı dostu UI (Framer Motion +  Material UI)
 
-## 🛠️ Kullanılan Teknolojilersss
+## 🛠️ Kullanılan Teknolojiler
 
 - **React**: Arayüz yapısı
 - **Firebase Auth + Firestore**: Giriş sistemi ve veritabanı
