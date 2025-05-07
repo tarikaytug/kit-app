@@ -4,6 +4,8 @@ import { auth } from "../services/firebase";
 import { useNavigate, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { useAuth } from "../context/AuthContext";
+import { setPersistence, browserLocalPersistence } from "firebase/auth";
+
 import {
   Box,
   Container,
@@ -52,9 +54,14 @@ const Login = () => {
     e.preventDefault();
     setIsLoading(true);
     setError("");
-    
+  
     try {
+      // Oturumu tarayıcıda kalıcı hale getiriyoruz
+      await setPersistence(auth, browserLocalPersistence);
+  
+      // Ardından kullanıcıyı giriş yaptırıyoruz
       await signInWithEmailAndPassword(auth, email, password);
+  
       navigate("/dashboard");
     } catch (err) {
       let errorMessage = "Giriş yapılırken bir hata oluştu.";
@@ -70,6 +77,7 @@ const Login = () => {
       setIsLoading(false);
     }
   };
+  
 
   return (
     <ThemeProvider theme={darkTheme}>
