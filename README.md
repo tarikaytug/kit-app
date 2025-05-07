@@ -10,7 +10,7 @@ Kitapp, kullanıcıların kitap arayabildiği ve favorilerine ekleyebildiği bas
 - Oturum kontrolü ve yönlendirme
 - Modern ve kullanıcı dostu UI (Framer Motion +  Material UI)
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Kullanılan Teknolojilersss
 
 - **React**: Arayüz yapısı
 - **Firebase Auth + Firestore**: Giriş sistemi ve veritabanı
@@ -19,9 +19,17 @@ Kitapp, kullanıcıların kitap arayabildiği ve favorilerine ekleyebildiği bas
 - **Framer Motion**: Animasyonlar
 - **Vite**: Geliştirme ortamı ve hızlı derleme
 
+
+## 🌐 Canlı Demo
+kit-app-amber.vercel.app
+
+
 ## 🔧 Kurulum
 
 ```bash
 git clone https://github.com/tarikaytug/kit-app
 cd kitapp
-npm install
+npm install 
+
+
+
