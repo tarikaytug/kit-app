@@ -21,7 +21,7 @@ Kitapp, kullanıcıların kitap arayabildiği ve favorilerine ekleyebildiği bas
 
 
 ## 🌐 Canlı Demo
-kit-app-amber.vercel.app
+https://kit-app-amber.vercel.app
 
 
 ## 🔧 Kurulum
